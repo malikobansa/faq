@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: 
+        linear-gradient(to top, hsl(292, 16%, 49%) 50%, transparent 50%),
+        url('./assets/images/background-pattern-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background: #fff; /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for depth */
+    max-width: 600px; /* Max width for better control */
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header{
+    text-align: left;
+}
+
+.card-title{
+    display: flex;
+    gap: 150px;
+}
+
+.card-title h4{
+    font-size: 14px;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
